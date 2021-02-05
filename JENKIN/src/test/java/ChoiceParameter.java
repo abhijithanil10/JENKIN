@@ -27,7 +27,10 @@ public class ChoiceParameter {
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 		driver.get("https://google.com");
+
 		System.out.println(driver.getTitle());
+		System.out.println(driver.getTitle());
+		
 		driver.quit();
 	}
 
